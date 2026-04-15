@@ -24,10 +24,21 @@
 
 ### 🔗 Connect with Me
 
-| Platform | ID / Link |
-| :--- | :--- |
-| **Email** | 1719149528@qq.com |
-| **GitHub** | [@lik-586](https://github.com/lik-586) |
+<table>
+  <tr>
+    <!-- 第一行 -->
+    <td>
+      <a href="mailto:lik586@qq.com" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Email-lik586@qq.com-red?style=for-the-badge&logo=gmail&logoColor=white&labelColor=333&color=cb2431" alt="Email">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/lik-586" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GitHub-@lik--586-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=333" alt="GitHub">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -57,6 +68,7 @@
 
 - **Core Courses**: Data Structures (**84**), OS Principles (**83**), Compilation (**83**), Java (**90**).
 
+> "Procrastination is the thief of time."
 <!--
 **lik-586/lik-586** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
