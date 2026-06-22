@@ -72,6 +72,8 @@
 - Implemented **CRUD operations** for chat history using local **JSON storage**
 - Achieved **millisecond-level streaming response** and seamless context switching
 
+[View on GitHub →](https://github.com/lik-586/AI-Companion)
+
 ### 🔍 Jigsaw Toxicity Prediction — NLP Classification
 > **Tech Stack:** `Python` `PyTorch` `NLP` `Transformer`
 
@@ -80,6 +82,8 @@
 - Implemented **multi-label classification** for various toxicity types
 - Achieved competitive performance on **Kaggle Jigsaw** competition benchmarks
 
+[View on GitHub →](https://github.com/lik-586/Jigsaw_Toxicity_Prediction)
+
 ### 🔥 PyTorch Deep Learning Lab
 > **Tech Stack:** `Python` `PyTorch`
 
@@ -87,12 +91,16 @@
 - Implemented custom **loss functions** and optimization strategies
 - Explored **model optimization** techniques including quantization and pruning
 
+[View on GitHub →](https://github.com/lik-586/pytorch_test)
+
 ### 📊 EM Classification App — Streamlit Visualization
 > **Tech Stack:** `Python` `Streamlit` `Expectation-Maximization`
 
 - Built an interactive **Expectation-Maximization** algorithm visualization
 - Implemented real-time **clustering visualization** with Streamlit
 - Designed intuitive UI for parameter tuning and result exploration
+
+[View on GitHub →](https://github.com/lik-586/em-classification-app)
 
 ---
 
