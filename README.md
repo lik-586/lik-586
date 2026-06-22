@@ -54,12 +54,15 @@
 ## 🚀 Featured Projects
 
 ### 📂 OS Kernel Simulator — High Concurrency File System
-> **Tech Stack:** `C++17` `Linux Syscall` `FAT32` `LRU` `mmap` `Semaphore` `Mutex`
+> **Tech Stack:** `C++20` `mmap` `msync` `Message Queue` `Semaphore` `Priority Scheduling` `FAT` `LRU`
 
-- Designed a simplified OS kernel with **file management** and **process scheduling**
-- Implemented **FAT32** algorithm and memory mapping (`mmap`) for efficient disk simulation
-- Optimized I/O efficiency by **~40%** using **LRU Buffer Pool** and dirty page write-back
-- Solved race conditions in multi-threading via **Semaphores** and **Mutex Locks**
+- **Storage Layer**: Designed `DiskManager` using POSIX `mmap`/`msync` to map 64KB local file into 1024 × 64B "disk blocks" for physical disk simulation
+- **File System Layer**: Implemented `FileSystem` with FAT table, single-level directory, and LRU buffer pool (16 pages, 64B/page) for efficient file operations
+- **Process & Communication Layer**: Built `MessageQueue` for priority-based inter-process communication; `ProcessScheduler` using `std::counting_semaphore` for CPU resource control
+- **Visualization**: `MonitorPanel` for real-time FAT table, buffer pool, and disk usage monitoring; block-level hex + ASCII dual-view display
+- **Optimization**: I/O efficiency improved by ~40% using LRU Buffer Pool and dirty page write-back; race conditions solved via semaphores and mutex locks
+
+[View on GitHub →](https://github.com/lik-586/OS-Kernel-Simulator)
 
 ### 🤖 AI Companion — Roleplay & Memory System
 > **Tech Stack:** `Python` `Streamlit` `DeepSeek API` `JSON`
