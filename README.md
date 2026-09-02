@@ -11,7 +11,7 @@
 - 🎓 **Junior at NEUQ** (Northeastern University at Qinhuangdao) majoring in Computer Science
 - 🔥 Passionate about **system internals** and **large language models (LLMs)**
 - 💼 Seeking **internship opportunities** in Backend or AI Engineering
-- 🌱 GPA: **2.84/5.0**
+- 🌱 GPA: **2.88/5.0**
 
 ---
 
